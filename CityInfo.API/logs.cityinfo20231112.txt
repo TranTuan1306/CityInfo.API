@@ -1,0 +1,123 @@
+2023-11-12 13:51:39.576 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-11-12 13:51:39.772 +07:00 [DBG] Hosting starting
+2023-11-12 13:51:40.251 +07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 49E1A446FE4517BF490D6DC59C2BDC7ED7AD0EF3)
+2023-11-12 13:51:40.333 +07:00 [INF] Now listening on: https://localhost:7138
+2023-11-12 13:51:40.382 +07:00 [INF] Now listening on: http://localhost:5019
+2023-11-12 13:51:40.384 +07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-11-12 13:51:40.386 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-11-12 13:51:40.387 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-11-12 13:51:40.389 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-12 13:51:40.391 +07:00 [INF] Hosting environment: Development
+2023-11-12 13:51:40.392 +07:00 [INF] Content root path: D:\.net\CityInfo.API\CityInfo.API\
+2023-11-12 13:51:40.393 +07:00 [DBG] Hosting started
+2023-11-12 13:51:40.410 +07:00 [DBG] Connection id "0HMV39F9F05QA" accepted.
+2023-11-12 13:51:40.415 +07:00 [DBG] Connection id "0HMV39F9F05QA" started.
+2023-11-12 13:51:40.443 +07:00 [DBG] Connection id "0HMV39F9F05QB" accepted.
+2023-11-12 13:51:40.446 +07:00 [DBG] Connection id "0HMV39F9F05QB" started.
+2023-11-12 13:51:41.223 +07:00 [DBG] Connection id "0HMV39F9F05QC" accepted.
+2023-11-12 13:51:41.226 +07:00 [DBG] Connection id "0HMV39F9F05QC" started.
+2023-11-12 13:51:41.243 +07:00 [DBG] Connection id "0HMV39F9F05QD" accepted.
+2023-11-12 13:51:41.248 +07:00 [DBG] Connection id "0HMV39F9F05QD" started.
+2023-11-12 13:51:41.807 +07:00 [DBG] Connection id "0HMV39F9F05QC" received FIN.
+2023-11-12 13:51:43.572 +07:00 [DBG] Connection 0HMV39F9F05QC established using the following protocol: "Tls12"
+2023-11-12 13:51:43.572 +07:00 [DBG] Connection 0HMV39F9F05QD established using the following protocol: "Tls12"
+2023-11-12 13:51:43.737 +07:00 [DBG] Connection id "0HMV39F9F05QC" is closed. The last processed stream ID was 0.
+2023-11-12 13:51:43.825 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger - -
+2023-11-12 13:51:43.873 +07:00 [DBG] Connection id "0HMV39F9F05QC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-12 13:51:43.965 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-11-12 13:51:43.970 +07:00 [DBG] Connection id "0HMV39F9F05QC" stopped.
+2023-11-12 13:51:44.253 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger - - - 301 0 - 431.9078ms
+2023-11-12 13:51:44.563 +07:00 [DBG] Connection id "0HMV39F9F05QE" accepted.
+2023-11-12 13:51:44.574 +07:00 [DBG] Connection id "0HMV39F9F05QD" received FIN.
+2023-11-12 13:51:44.991 +07:00 [DBG] Connection id "0HMV39F9F05QE" started.
+2023-11-12 13:51:45.036 +07:00 [DBG] Connection id "0HMV39F9F05QD" is closed. The last processed stream ID was 1.
+2023-11-12 13:51:45.094 +07:00 [DBG] Connection 0HMV39F9F05QE established using the following protocol: "Tls12"
+2023-11-12 13:51:45.160 +07:00 [DBG] Connection id "0HMV39F9F05QD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-12 13:51:45.417 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/index.html - -
+2023-11-12 13:51:45.608 +07:00 [DBG] Connection id "0HMV39F9F05QD" stopped.
+2023-11-12 13:51:46.831 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-11-12 13:51:47.529 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/swagger-ui.css - -
+2023-11-12 13:51:47.530 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/swagger-ui-bundle.js - -
+2023-11-12 13:51:47.531 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - -
+2023-11-12 13:51:47.530 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/swagger-ui-standalone-preset.js - -
+2023-11-12 13:51:47.547 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-11-12 13:51:47.551 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/index.html - - - 200 - text/html;charset=utf-8 2133.7355ms
+2023-11-12 13:51:47.555 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 24.2483ms
+2023-11-12 13:51:47.594 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7138/_vs/browserLink - -
+2023-11-12 13:51:47.656 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-11-12 13:51:47.676 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/swagger-ui.css - - - 200 144929 text/css 146.1368ms
+2023-11-12 13:51:47.690 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-11-12 13:51:47.694 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 163.6049ms
+2023-11-12 13:51:47.721 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-11-12 13:51:47.725 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 194.7547ms
+2023-11-12 13:51:47.733 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7138/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 138.9260ms
+2023-11-12 13:51:49.419 +07:00 [DBG] Connection id "0HMV39F9F05QE" received FIN.
+2023-11-12 13:51:49.422 +07:00 [DBG] Connection id "0HMV39F9F05QE" is closed. The last processed stream ID was 11.
+2023-11-12 13:51:49.426 +07:00 [DBG] Connection id "0HMV39F9F05QE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-12 13:51:49.433 +07:00 [DBG] Connection id "0HMV39F9F05QE" stopped.
+2023-11-12 13:51:50.475 +07:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-11-12 13:51:50.475 +07:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-11-12 13:51:50.481 +07:00 [DBG] Connection id "0HMV39F9F05QA" stopped.
+2023-11-12 13:51:50.482 +07:00 [DBG] Connection id "0HMV39F9F05QB" stopped.
+2023-11-12 13:51:50.483 +07:00 [DBG] Connection id "0HMV39F9F05QA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-12 13:51:50.485 +07:00 [DBG] Connection id "0HMV39F9F05QB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-12 13:51:51.460 +07:00 [DBG] Connection id "0HMV39F9F05QF" accepted.
+2023-11-12 13:51:51.462 +07:00 [DBG] Connection id "0HMV39F9F05QF" started.
+2023-11-12 13:51:51.474 +07:00 [DBG] Connection 0HMV39F9F05QF established using the following protocol: "Tls12"
+2023-11-12 13:51:51.477 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - -
+2023-11-12 13:51:51.526 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7138/swagger/favicon-32x32.png - -
+2023-11-12 13:51:51.534 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-12 13:51:51.536 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/favicon-32x32.png - - - 200 628 image/png 10.3947ms
+2023-11-12 13:51:52.086 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 609.3106ms
+2023-11-12 13:51:54.422 +07:00 [DBG] Connection id "0HMV39F9F05QF" received FIN.
+2023-11-12 13:51:54.426 +07:00 [DBG] Connection id "0HMV39F9F05QF" is closed. The last processed stream ID was 3.
+2023-11-12 13:51:54.430 +07:00 [DBG] Connection id "0HMV39F9F05QF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-12 13:51:54.449 +07:00 [DBG] Connection id "0HMV39F9F05QF" stopped.
+2023-11-12 13:53:22.609 +07:00 [DBG] Connection id "0HMV39F9F05QG" accepted.
+2023-11-12 13:53:22.660 +07:00 [DBG] Connection id "0HMV39F9F05QG" received FIN.
+2023-11-12 13:53:22.685 +07:00 [DBG] Connection id "0HMV39F9F05QG" started.
+2023-11-12 13:53:22.718 +07:00 [DBG] Connection id "0HMV39F9F05QH" accepted.
+2023-11-12 13:53:22.764 +07:00 [DBG] Connection id "0HMV39F9F05QH" started.
+2023-11-12 13:53:22.765 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-12 13:53:22.779 +07:00 [DBG] Connection 0HMV39F9F05QH established using the following protocol: "Tls12"
+2023-11-12 13:53:22.952 +07:00 [DBG] Connection id "0HMV39F9F05QG" stopped.
+2023-11-12 13:53:22.958 +07:00 [DBG] Connection id "0HMV39F9F05QG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-12 13:53:22.989 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7138/api/authentication/authenticate application/json 114
+2023-11-12 13:53:22.995 +07:00 [DBG] POST requests are not supported
+2023-11-12 13:53:23.111 +07:00 [DBG] 1 candidate(s) found for the request path '/api/authentication/authenticate'
+2023-11-12 13:53:23.130 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)' with route pattern 'api/authentication/authenticate' is valid for the request path '/api/authentication/authenticate'
+2023-11-12 13:53:23.137 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2023-11-12 13:53:23.147 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2023-11-12 13:53:23.542 +07:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2023-11-12 13:53:23.548 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-11-12 13:53:23.552 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-11-12 13:53:23.555 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-11-12 13:53:23.560 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-11-12 13:53:23.562 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-11-12 13:53:23.568 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API)
+2023-11-12 13:53:23.576 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API)
+2023-11-12 13:53:23.590 +07:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2023-11-12 13:53:23.596 +07:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' using the name '' in request data ...
+2023-11-12 13:53:23.601 +07:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerInputFormatter' for content type 'application/json'.
+2023-11-12 13:53:23.603 +07:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2023-11-12 13:53:23.605 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2023-11-12 13:53:23.734 +07:00 [DBG] Connection id "0HMV39F9F05QH", Request id "0HMV39F9F05QH:00000002": started reading request body.
+2023-11-12 13:53:23.738 +07:00 [DBG] Connection id "0HMV39F9F05QH", Request id "0HMV39F9F05QH:00000002": done reading request body.
+2023-11-12 13:53:24.553 +07:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2023-11-12 13:53:24.557 +07:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2023-11-12 13:53:24.563 +07:00 [DBG] Attempting to validate the bound parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2023-11-12 13:53:24.601 +07:00 [DBG] Done attempting to validate the bound parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2023-11-12 13:53:27.217 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-11-12 13:53:27.233 +07:00 [DBG] No information found on request to perform content negotiation.
+2023-11-12 13:53:27.237 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-11-12 13:53:27.240 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-11-12 13:53:27.242 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2023-11-12 13:53:27.246 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-11-12 13:53:27.288 +07:00 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 3700.8898ms
+2023-11-12 13:53:27.298 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2023-11-12 13:53:27.309 +07:00 [DBG] Connection id "0HMV39F9F05QH" completed keep alive response.
+2023-11-12 13:53:27.333 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7138/api/authentication/authenticate application/json 114 - 200 - text/plain;+charset=utf-8 4344.2947ms
